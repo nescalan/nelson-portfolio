@@ -35105,23 +35105,41 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 100px;
 }
 
+.u-header .u-group-1 {
+  width: 200px;
+  min-height: 40px;
+  height: auto;
+  margin: 31px auto 0 0;
+}
+
+.u-header .u-container-layout-1 {
+  padding: 0;
+}
+
 .u-header .u-text-1 {
+  margin-bottom: 0;
+  margin-top: 0;
   font-weight: 700;
-  margin: 22px 1021px 0 auto;
 }
 
 .u-header .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-header .u-btn-2 {
   border-style: none;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 1px;
   background-image: none;
-  margin: -36px 0 0 auto;
+  align-self: center;
+  margin: -37px 0 0 auto;
 }
 
 .u-header .u-menu-1 {
-  margin: -36px 145px 0 auto;
+  margin: -37px 145px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -35133,25 +35151,23 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
-  .u-header .u-text-1 {
-    margin-top: 28px;
-    margin-right: 821px;
+  .u-header .u-group-1 {
+    margin-top: -44px;
+    height: auto;
+  }
+
+  .u-header .u-btn-2 {
+    margin-top: -30px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -45px;
-    margin-bottom: 60px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-text-1 {
-    margin-right: auto;
-    margin-left: 0;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: -42px;
+  .u-header .u-btn-2 {
+    margin-top: -36px;
     margin-right: 64px;
   }
 
@@ -35161,12 +35177,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-text-1 {
-    margin-right: 421px;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: -44px;
+  .u-header .u-btn-2 {
+    margin-top: -38px;
     margin-right: 49px;
   }
 
@@ -35175,13 +35187,13 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-text-1 {
-    margin-right: 245px;
+  .u-header .u-group-1 {
+    margin-top: -21px;
   }
 
-  .u-header .u-btn-1 {
+  .u-header .u-btn-2 {
     font-size: 0.625rem;
-    margin-top: -28px;
+    margin-top: -34px;
     margin-right: 44px;
   }
 
