@@ -35214,14 +35214,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-2 {
   font-size: 3.75rem;
-  margin: 5px auto 0;
+  margin: 9px auto 0;
 }
 
 .u-footer .u-line-1 {
   width: 147px;
   height: 3px;
-  transform-origin: right center 0;
-  margin: 30px auto 0;
+  transform-origin: right center 0px;
+  margin: 26px auto 0;
 }
 
 .u-footer .u-text-3 {
@@ -35245,7 +35245,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-footer .u-group-1 {
     margin-top: -67px;
-    min-height: 343px;
   }
 }
 @media (max-width: 991px) {
