@@ -35277,8 +35277,22 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 300px;
+  }
+
   .u-footer .u-text-1 {
     width: 340px;
+  }
+
+  .u-footer .u-group-1 {
+    margin-bottom: 0;
+    min-height: 250px;
+    width: 340px;
+  }
+
+  .u-footer .u-container-layout-1 {
+    padding-bottom: 13px;
   }
 
   .u-footer .u-text-2 {
